@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="testGIt:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/testGIt_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="testGIt/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="testGIt" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Struts 2" />
+          <element id="library" level="project" name="Hibernate" />
+          <element id="library" level="application" name="junit-4.12" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
